@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website - Vansh Gupta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div id="wrapper">
+
+        <div class="container">
+            <div class="navbar">
+                
+                <div class="logo-container">
+                    <img src="./images/userAsset/NavLogo.png" class="logo">
+                    <div class="logo-text">ansh Gupta</div>
+                </div>
+                
+                <div class="nav-items">
+                    <div><a href="#projects">Projects</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#contactme">Contact Me</a></div>
+                </div>
+
+            </div>
+
+            <div class="hero-section">
+
+                <div class="faded-text">Vansh Gupta</div>
+    
+                <div class="hero-section-left">
+                    <div class="hero-section-heading">Hi! Vansh Gupta</div>
+                    
+                    <div class="hero-section-heading hero-section-sub-heading">
+                        I am a <span class="role"></span>
+                    </div>
+    
+                    <div class="hero-section-description">
+                        I’m a software developer and here is my portfolio website. Here you’ll
+                        learn about my journey as a software developer.
+                    </div>
+                    
+                    <div class="btn-pink" id="btn">Hire me</div>
+    
+                </div>
+    
+                <div class="hero-section-right">
+                    <div class="absolute icons icon-dots">
+                        <img src="./images/userAsset/dots.png" alt="" />
+                      </div>
+                      <div class="absolute icons icon-cube">
+                        <img src="./images/userAsset/cube.png" alt="" />
+                      </div>
+                      <div class="absolute icons icon-circle">
+                        <img src="./images/userAsset/circle.png" alt="" />
+                      </div>
+                      <div class="absolute icons icon-zigzag">
+                        <img src="./images/userAsset/zigzags.png" alt="" />
+                      </div>
+                      <div class="absolute icons icon-plus">
+                        <img src="./images/userAsset/plus.png" alt="" />
+                      </div>
+                      <div class="user-image">
+                        <img src="./images/userAsset/vansh_gupta.jpeg" alt="" height="370px" width="340px" />
+                      </div>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="project-section" id="projects">
+            <h2 class="page-header">Projects</h2>
+
+            <div class="project-container">
+                <div class="project-card" id="project1">
+                    <div class="project-number project-number-right">01</div>
+                    <div class="project-content project-content-left">
+
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="./images/stack/Python.png" alt="" />
+                            
+                            <img class="project-skill" src="https://streamlit.io/images/brand/streamlit-mark-color.png" alt="" />
+                            <img class="project-skill" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvtj4KdFU7jmWYeRrQkvVrXutBhv0NQZourbWmG7333Q&s" alt="" />
+                            <img class="project-skill" src="data:image/png;base64,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" alt="" />
+                            
+                        </div>
+
+                        <h2 class="project-heading">WhatsApp Chat Analyser</h2>
+
+                        <p class="project-subHeading">The whatsapp chat analyser is data analysis tool which is used to provides the detailed analysis of whatsapp group and personal chat conversation.
+                        </p>
+                        <div class="btn-grp">
+                            <button class="btn-pink btn-project">Read More</button>
+                            <a href="https://github.com/Vansh-123/whatsapp-chat-analyzer">
+                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                            <a href="">
+                            <i title="Live Link" class="fa-solid fa-link icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project2">
+                  <div class="project-number project-number-left">02</div>
+                  <div class="project-content project-content-right">
+                    <div class="project-skill-container">
+                      <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                      <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+                      <img src="./images/stack/React.png" alt="" class="skills-logo" />
+                      <img src="./images/stack/NodeJs.svg" alt="" class="skills-logo" />
+                    </div>
+                    <h2 class="project-heading">Real Time ChatApplication</h2>
+                    <p class="project-sub-heading">
+                      • Developed real-time chat app with Node.js and Socket.io for diverse user base.<br>
+                      • Implemented Socket.io for seamless event-based communication with less than 100ms latency .<br>
+                      • Integrated secure user registration and login, driving 30% user engagement increase and maintaining
+                        99.9% data breach prevention .
+
+                    </p>
+                    <div class="btn-group">
+                      <button class="btn-pink btn-project">Read More</button>
+                      <a href="https://github.com/Vansh-123/Real_Time_Chat_App">
+                        <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                      </a>
+                      <a href="">
+                        <i title="Live Link" class="fa-solid fa-link icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="project-card" id="project3">
+                  <div class="project-number project-number-right">03</div>
+                  <div class="project-content project-content-left">
+                    <div class="project-skill-container">
+                      <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                      <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+                     
+                    </div>
+          
+                    <h2 class="project-heading">.BlogApp</h2>
+                    <p class="project-sub-heading">
+                      • Created ”.Blog App” with React and Appwrite, ensuring security and user-friendliness. Implemented signup,
+                      login, and logout features.<br>
+                      • Streamlined blog post actions—create, read, edit, delete. Direct integration with LinkedIn and Facebook,
+                      resulting in a significant 30% boost in social media traffic to the blog.
+                    </p>
+                    <div class="btn-group">
+                      <button class="btn-pink btn-project">Read More</button>
+                      <a href="">
+                        <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                      </a>
+                      <a href="">
+                        <i title="Live Link" class="fa-solid fa-link icon"></i>
+                        
+                      </a>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="project-card" id="project4">
+                  <div class="project-number project-number-left">04</div>
+                  <div class="project-content project-content-right">
+                    <div class="project-skill-container">
+                      
+                      <img class="project-skill" src="./images/stack/Tailwind.png" alt="" />
+                      
+                      <img class="project-skill" src="./images/stack/HTML.png" alt="" />
+                      <img class="project-skill" src="./images/stack/CSS.png" alt="" />
+                      <img class="project-skill" src="./images/stack/Javascript.svg" alt="" />
+                       
+                    </div>
+                    <h2 class="project-heading">Github Profile Extractor</h2>
+                    <p class="project-sub-heading">
+                      The project allows users to view a detailed summary of any GitHub user's profile information, including
+                      bio, location, and repositories, by entering their username.
+                    </p>
+                    <div class="btn-group">
+                      <button class="btn-pink btn-project">Read More</button>
+                      <a href="https://github.com/Vansh-123/Github-Profile-Extractor..">
+                        <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                      </a>
+                      <a href="https://vansh-123.github.io/Github-Profile-Extractor../
+                      ">
+                        <i title="Live Link" class="fa-solid fa-link icon">
+                        </i>
+                        
+                      </a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+        </div>
+        
+        <div id="skills" class="container skills-container ">
+          <div class="skill-fade-text">Skills</div>
+
+          <div class="skill-container-left">
+            <h2 class="skill-heading">
+              <span class="caps">M</span>e and
+              <br />
+              MyTech Stack
+            </h2>
+
+            <div class="skill-subHeading">
+              <p>
+                Hello! I'm Vansh Gupta, a passionate coder with a solid Computer Engineering background.
+                I've achieved a 3-star rating on CodeChef, a 5-star rating on Python Hackerrank, and solved over 400 problems on LeetCode. 
+                Proficient in Python, C++, and JavaScript, I specialize in front-end development using React.js, Express.js, HTML, and CSS.
+              </p>
+              <p>
+                My coding journey reflects a commitment to continuous learning and problem-solving.
+                I thrive on challenges, delivering elegant code and innovative solutions.
+                Whether working solo or in a team, I prioritize delivering high-quality results.
+              </p>
+              <p>
+                Explore my portfolio for insights into my coding journey and projects.
+                I'm actively seeking opportunities to contribute my skills to meaningful projects and excited about new challenges in the coding world.
+              </p>
+            </div>
+          </div>
+
+          <div class="skill-container-right">
+            <img src="./images/userAsset/blob vector.png" class="blob-style" alt="" />
+
+            <img src="./images/stack/HTML.png" alt="" class="skills-logo" />
+            <img src="./images/stack/CSS.png" alt="" class="skills-logo" />
+            <img src="./images/stack/Javascript.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/React.png" alt="" class="skills-logo" />
+            <img src="./images/stack/NodeJs.svg" alt="" class="skills-logo" />
+            <!-- <img src="./images/stack/Next.svg" alt="" class="skills-logo" /> -->
+            <!-- <img src="./images/stack/Redux.svg" alt="" class="skills-logo" /> -->
+            <img src="./images/stack/Tailwind.png" alt="" class="skills-logo" />
+            <img src="./images/stack/Bootstrap.svg" alt="" class="skills-logo" />
+            <!-- <img src="./images/stack/MaterialUI.svg" alt="" class="skills-logo" /> -->
+            <img src="./images/stack/Express.png" alt="" class="skills-logo" />
+            <img src="./images/stack/Git.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/Github.svg" alt="" class="skills-logo" />
+            <!-- <img src="./images/stack/Graphql.svg" alt="" class="skills-logo" /> -->
+            <img src="./images/stack/MongoDB.svg" alt="" class="skills-logo" />
+            <img src="./images/stack/Vercel.svg" alt="" class="skills-logo" />
+            <!-- <img src="./images/stack/ChartJs.svg" alt="" class="skills-logo" /> -->
+            <!-- <img src="./images/stack/Bash.svg" alt="" class="skills-logo" /> -->
+            <!-- <img src="./images/stack/Docker.svg" alt="" class="skills-logo" /> -->
+            <!-- <img src="./images/stack/K8s.svg" alt="" class="skills-logo" /> -->
+          </div>
+        
+        
+        
+        </div>
+
+        <div class="contactus-form-container" id="contactme">
+          <div class="container">
+
+            <h1 class="contactus-heading">Contact me</h1>
+
+            <h3 class="contactus-sub-heading">
+              Questions, thoughts, or just want to say hello?
+            </h3>
+
+
+            <div class="contactus-form-container">
+              <form class="form" action="">
+                <div class="formfield-container">
+                  <input class="formfield" 
+                  type="text" 
+                  name="name" 
+                  id="" 
+                  placeholder="Enter your name" />
+
+                  <input class="formfield" 
+                  type="email" 
+                  name="email" 
+                  id="" 
+                  placeholder="Enter your email address" />
+
+                  <input class="formfield" 
+                  type="text" 
+                  name="subject" 
+                  id="" 
+                  placeholder="Enter your subject" />
+
+                  <textarea name="message" 
+                  id="" cols="30" rows="10" 
+                  class="formfield formfield-textarea"
+                  placeholder="Enter your message"></textarea>
+
+                </div>
+                
+                <div>
+                  <button type="submit" class="btn-pink" id="submit-btn">
+                    Send Message<i class="submit-icon fa-solid fa-paper-plane"></i>
+                  </button>
+                </div>
+
+              </form>
+
+            </div>
+
+
+          </div>
+        </div>
+
+        <footer>
+          <div class="container">
+            <div class="footer-wrapper">
+              <div class="footer-faded-text">Vansh Gupta</div>
+
+              <div class="link-wrapper">
+                <div>
+                  <a href="#projects">Projects</a>
+                </div>
+                <div>
+                  <a href="#skills">Skills</a>
+                </div>
+                <div>
+                  <a href="#contactme">Contact Me</a>
+                </div>
+              </div>
+
+              <div class="icon-wrapper">
+                <i class="fa-brands fa-linkedin icon"></i>
+                <i class="fa-brands fa-github icon"></i>
+                <i class="fa-brands fa-twitter icon"></i>
+                <i class="fa-brands fa-instagram icon"></i>
+                <i class="fa-regular fa-envelope icon"></i>
+              </div>
+
+            </div>
+          </div>
+        </footer>
+
+    </div>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+  <script>
+    var typeData = new Typed(".role", {
+      strings: [
+        "Full Stack Developer",
+        "Web Developer",
+        "UI-UX Designer",
+        "Backend Developer",
+        "Coder",
+      ],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1000,
+    });
+  </script>
+</body>
+</html>
